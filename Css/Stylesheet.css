@@ -5,31 +5,33 @@ body {
 	width: 99%;
 	height: 10%;
 	background-color: red;
-    position:absolute; 
+    position:relative; 
     top: 0;
     left: 0.5%;
     border-bottom: 2px solid black;
     font-size: 25px;
-    padding: 0 0 0% 0;
-    margin: 0% 0% 0 0;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 
+}
+.header img {
+	float: left;
 }
 header {
 }
-.nav {
+.snav {
 }
 .nav ul {
-	list-style: none;
-	text-align: center;
-	float: left;
 	padding: 2% 0 2% 0;
 	margin: 0% 0 0% 0;
 	top:0;
+	position: relative;
 }
 .nav li {
 	display: inline-block;
 	padding: 0px 100px 0px 100px;
 	clear: both;
+	position: relative;
 }
 .nav li img {
 width: 30px;
@@ -41,17 +43,21 @@ padding: 0 10px 0 0;
 }
 #login {
 	float: right;
-	margin: 0 0 0 0;
+	margin: 0 0 0 85%;
 	padding: 0 0 0 0;
 	line-height: 2px ;
 	font-size: 20px;
-	position: relative;
+	position: absolute;
 }
 #login ul {
 
 }
 #login li {
-	padding: 0 10px 0 0;
+	padding: 0 5px 0 5px;
 	font-size: 15px;
 	line-height: 30px;
+	border:2px black solid;
+}
+footer {
+	bottom: 0;
 }
