@@ -42,8 +42,7 @@ padding: 0 10px 0 0;
 	color: white;
 }
 #login {
-	float: right;
-	margin: 0 0 0 85%;
+	right: 0;
 	padding: 0 0 0 0;
 	line-height: 2px ;
 	font-size: 20px;
@@ -57,7 +56,13 @@ padding: 0 10px 0 0;
 	font-size: 15px;
 	line-height: 30px;
 	border:2px black solid;
+	border-top: 0px ;
 }
 footer {
 	bottom: 0;
+}
+.content img {
+	width: 200px;
+	height: 200px;
+	margin: 15px 0 0 15px;
 }
